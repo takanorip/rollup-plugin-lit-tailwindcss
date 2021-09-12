@@ -1,7 +1,7 @@
 # rollup-plugin-lit-tailwindcss
 
 ```js
-import litTailwind from 'rollup-plugin-lit-tailwindcss';
+import litTailwind from '@takanorip/rollup-plugin-lit-tailwindcss';
 
 export default {
   input: 'src/index.ts',
@@ -11,8 +11,8 @@ export default {
   plugins: [
     litTailwind({
       include: 'src/components/**/*.ts',
+      exclude: undefined,
       placeholder: 'tw_placeholder',
-      placeholder: undefined,
     }),
   ],
 };
