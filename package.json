@@ -21,7 +21,7 @@
     "lit",
     "tailwindcss"
   ],
-  "author": "takanorip",
+  "author": "mcha",
   "license": "MIT",
   "dependencies": {
     "@rollup/pluginutils": "^4.1.0",
